@@ -12,6 +12,6 @@
     // Recommended Options
     "strict": true
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*", "knexfile.js"],
   "exclude": ["node_modules"]
 }
