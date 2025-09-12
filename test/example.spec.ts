@@ -26,7 +26,7 @@ afterAll(async () => {
   await app.close(); //fecha a aplicação -> remove ela da memória
 });
 
-test('Usuário consegue criar uma nova transação', async () => {
+test('User can create a new transaction', async () => {
   await request(app.server) // Server puro
     .post('/transactions') //Falha porque os plugins são assincronos
     .send({
